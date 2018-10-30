@@ -1,0 +1,30 @@
+<h2>  {{mycontact.firstName | uppercase}} Details</h2>
+
+<div><span>Id: </span>{{mycontact.Id}}</div>
+<div><span>Name: </span>{{mycontact.lastName}}</div>
+
+<div>
+  <label>First Name: 
+    <input [(ngModel)]="mycontact.firstName" placeholder="First Name">
+  </label>
+
+  <label>Last Name: 
+    <input [(ngModel)]="mycontact.lastName" placeholder="Last Name">
+  </label>
+
+  <label>Nick Name: 
+    <input [(ngModel)]="mycontact.nickName" placeholder="Nick Name">
+  </label>
+
+  <label>Cell Phone: 
+    <input [(ngModel)]="mycontact.cellPhone" placeholder="Cell Phone">
+  </label>
+
+  <label>Home Phone: 
+    <input [(ngModel)]="mycontact.homePhone" placeholder="Home Phone">
+  </label>
+
+  <label>Work Phone: 
+    <input [(ngModel)]="mycontact.workPhone" placeholder="Work Phone">
+  </label>
+</div>
